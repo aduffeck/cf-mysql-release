@@ -34,10 +34,10 @@ tar xzf xtrabackup/autoconf-2.65.tar.gz
 )
 
 # automake
-tar xzf xtrabackup/automake-1.14.1.tar.gz
+tar xzf xtrabackup/automake-1.16.1.tar.gz
 (
   set -e
-  cd automake-1.14.1
+  cd automake-1.16.1
   ./configure --prefix=$PREFIX
   make -j "${NPROC}"
   make -j "${NPROC}" install prefix=$PREFIX

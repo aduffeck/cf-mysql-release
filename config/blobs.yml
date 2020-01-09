@@ -50,10 +50,9 @@ xtrabackup/autoconf-2.65.tar.gz:
   size: 1738880
   object_id: 12402e0c-14bd-4a31-8344-858c09639f67
   sha: ae9e1ab046822007f25c88e1d8f2166e065da8c2
-xtrabackup/automake-1.14.1.tar.gz:
-  size: 2240681
-  object_id: 22110fae-0404-48d2-a2a0-869b40172c09
-  sha: 0bb1714b78d70cab9907d2013082978a28f48a46
+xtrabackup/automake-1.16.1.tar.gz:
+  size: 2300906
+  sha: sha256:608a97523f97db32f1f5d5615c98ca69326ced2054c9f82e65bade7fc4c9dea8
 xtrabackup/libaio_0.3.110.orig.tar.gz:
   size: 42270
   object_id: 10d3be70-6c51-4220-9d46-8de75281fd3d
