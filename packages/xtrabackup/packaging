@@ -4,7 +4,7 @@ set -x
 
 NPROC="$(nproc)"
 
-XTRABACKUP_VERSION=2.4.8
+XTRABACKUP_VERSION=2.4.18
 PREFIX=${BOSH_INSTALL_TARGET}
 
 export PATH=$PATH:${BOSH_INSTALL_TARGET}/bin:/var/vcap/packages/mariadb/bin
@@ -81,7 +81,7 @@ tar xzf xtrabackup/libev-4.22.tar.gz
 tar xzf xtrabackup/percona-xtrabackup-${XTRABACKUP_VERSION}.tar.gz
 (
   set -e
-  cd percona-xtrabackup-${XTRABACKUP_VERSION}
+  cd percona-xtrabackup-percona-xtrabackup-${XTRABACKUP_VERSION}
 
   cmake \
       -DBUILD_CONFIG=xtrabackup_release \
